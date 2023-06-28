@@ -1,0 +1,1 @@
+<resources><string name="app_name">HelloSpinner</string><string name="title_prompt">Choose a subjet</string><string-array name="bar_array"><item>choose where you want to go</item><item>my messages</item><item>add test</item><item>messages for me</item><item>main page</item><item>all tests</item><item>add message</item></string-array></resources>

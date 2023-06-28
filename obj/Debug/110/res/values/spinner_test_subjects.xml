@@ -1,0 +1,1 @@
+<resources><string name="app_name">HelloSpinner</string><string name="title_prompt">Choose a subjet</string><string-array name="title_array"><item>math</item><item>science</item><item>language</item></string-array></resources>

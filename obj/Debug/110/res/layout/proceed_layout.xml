@@ -1,0 +1,1 @@
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><ImageButton android:layout_width="339.5dp" android:layout_height="624.5dp" android:id="@+id/gifImageView" android:background="@drawable/cat" /></LinearLayout>

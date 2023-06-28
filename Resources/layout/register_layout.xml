@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background">
+    <TextView
+        android:text="register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:id="@+id/textView1" />
+     <EditText
+        android:background="@android:color/white"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter name"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+               android:layout_gravity="center"
+        android:id="@+id/nameD"/>
+    <EditText
+        android:background="@android:color/white"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+               android:layout_gravity="center"
+
+        android:id="@+id/email"/>
+    <EditText
+                android:background="@android:color/white"
+
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:hint="Enter password"
+        android:layout_height="50dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+                android:layout_gravity="center"
+
+        android:id="@+id/password"/>
+
+    <EditText
+        android:background="@android:color/white"
+        android:layout_width="207.0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        android:hint="Enter phone number"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:id="@+id/phoneNumberD"/>
+     
+<RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:id="@+id/type">
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:textSize="30sp"
+            android:textColor="@android:color/black"
+        android:checked="true"
+            android:text="student"
+        android:id="@+id/typeStudent"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:textSize="30sp"
+        android:text="teacher"
+                        android:textColor="@android:color/black"
+
+        android:id="@+id/typeTeacher"/>
+</RadioGroup>
+  
+        <Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar1">
+    <Button
+        android:background="@drawable/register_button" 
+        android:layout_width="120dp"
+       android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnRegister" />
+        <Button
+        android:background="@drawable/login_button"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnLogin" />
+              <Button
+            android:background="@drawable/back_button"
+            android:layout_width="112.0dp"
+            android:layout_height="200dp"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"
+            android:id="@+id/btnBack" />
+     </Toolbar>
+
+</LinearLayout>

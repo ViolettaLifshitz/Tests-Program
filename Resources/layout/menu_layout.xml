@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sun"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/welcome_image" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toTestProgram_image" />
+
+    <Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar1"
+>
+
+
+        <Button
+            android:background="@drawable/settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSettings"
+   />
+        <Button
+            android:background="@drawable/logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/buttonLogout"
+   />
+        <Button
+            android:background="@drawable/my_message_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMyMessages" />
+        <Button
+            android:background="@drawable/messages_for_me_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMessagesForMe" />
+    </Toolbar>
+    <Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar2"
+>
+    
+    <Button
+        android:background="@drawable/all_tests_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/allTests" />
+        <Button
+            android:background="@drawable/add_test_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addTest" />
+        <ImageButton
+            android:background="@drawable/addmessagebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addMessageButton" />
+
+
+    </Toolbar>
+
+
+</LinearLayout>

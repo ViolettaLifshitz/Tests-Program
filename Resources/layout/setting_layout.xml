@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settingbackground">
+    <Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar1">
+               <Button
+            android:background="@drawable/back_button"
+            android:layout_width="112.0dp"
+            android:layout_height="200dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/buttonBack" />
+  
+                <Button
+            android:background="@drawable/logout_button"
+            android:layout_width="110dp"
+            android:layout_height="200dp"
+            android:id="@+id/buttonLogout"
+   />
+        </Toolbar>
+        <TextView
+        android:background="@drawable/battery"
+        android:text="0%"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:layout_width="224.0dp"
+        android:layout_height="120dp"
+        android:id="@+id/batery" />
+     
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewBattery" />
+   
+
+ 
+ 
+</LinearLayout>
